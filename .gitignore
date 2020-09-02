@@ -1,0 +1,21 @@
+## Quartus
+db/
+incremental_db/
+greybox_tmp/
+output/
+*.dpf
+*.cdf
+*.qws
+
+## Kicad
+*-lib-table
+*-cache
+*-rescue.lib
+*.sch-bak
+*.kicad_pcb-bak
+*.dcm
+
+## Etc.
+*.bak
+*.*~
+/zx/
