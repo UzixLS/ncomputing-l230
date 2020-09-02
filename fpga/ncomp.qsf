@@ -1,0 +1,196 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+# Date created = 12:25:28  November 14, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ncomp_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name DEVICE EP1C12Q240C8
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:25:28  NOVEMBER 14, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_66 -to usb_dn
+set_location_assignment PIN_67 -to usb_dp
+set_location_assignment PIN_217 -to vga_vsync
+set_location_assignment PIN_224 -to vga_g[7]
+set_location_assignment PIN_12 -to vga_r[0]
+set_location_assignment PIN_13 -to vga_r[1]
+set_location_assignment PIN_14 -to vga_r[2]
+set_location_assignment PIN_223 -to vga_r[3]
+set_location_assignment PIN_222 -to vga_r[4]
+set_location_assignment PIN_219 -to vga_r[5]
+set_location_assignment PIN_218 -to vga_r[7]
+set_location_assignment PIN_234 -to vga_r[6]
+set_location_assignment PIN_17 -to vga_g[0]
+set_location_assignment PIN_18 -to vga_g[1]
+set_location_assignment PIN_233 -to vga_g[2]
+set_location_assignment PIN_228 -to vga_g[3]
+set_location_assignment PIN_227 -to vga_g[4]
+set_location_assignment PIN_226 -to vga_g[5]
+set_location_assignment PIN_225 -to vga_g[6]
+set_location_assignment PIN_216 -to vga_hsync
+set_location_assignment PIN_19 -to vga_b[0]
+set_location_assignment PIN_20 -to vga_b[1]
+set_location_assignment PIN_21 -to vga_b[2]
+set_location_assignment PIN_166 -to vga_b[3]
+set_location_assignment PIN_167 -to vga_b[4]
+set_location_assignment PIN_168 -to vga_b[5]
+set_location_assignment PIN_170 -to vga_b[6]
+set_location_assignment PIN_169 -to vga_b[7]
+set_global_assignment -name FMAX_REQUIREMENT "80 MHz" -section_id clk_80mhz
+set_location_assignment PIN_78 -to led_center
+set_location_assignment PIN_77 -to led_right
+set_location_assignment PIN_214 -to keyboard_clk
+set_location_assignment PIN_215 -to keyboard_dat
+set_location_assignment PIN_208 -to mouse_dat
+set_location_assignment PIN_213 -to mouse_clk
+set_location_assignment PIN_64 -to pcm_bck
+set_location_assignment PIN_57 -to pcm_dout
+set_location_assignment PIN_65 -to pcm_lrck
+set_location_assignment PIN_63 -to pcm_scki
+set_location_assignment PIN_236 -to snd_l
+set_location_assignment PIN_237 -to snd_r
+set_location_assignment PIN_200 -to dram_dq[0]
+set_location_assignment PIN_197 -to dram_dq[1]
+set_location_assignment PIN_196 -to dram_dq[2]
+set_location_assignment PIN_195 -to dram_dq[3]
+set_location_assignment PIN_194 -to dram_dq[4]
+set_location_assignment PIN_193 -to dram_dq[5]
+set_location_assignment PIN_188 -to dram_dq[6]
+set_location_assignment PIN_187 -to dram_dq[7]
+set_location_assignment PIN_108 -to dram_dq[9]
+set_location_assignment PIN_107 -to dram_dq[10]
+set_location_assignment PIN_106 -to dram_dq[11]
+set_location_assignment PIN_105 -to dram_dq[12]
+set_location_assignment PIN_104 -to dram_dq[13]
+set_location_assignment PIN_101 -to dram_dq[14]
+set_location_assignment PIN_100 -to dram_dq[15]
+set_location_assignment PIN_164 -to dram_dq[17]
+set_location_assignment PIN_162 -to dram_dq[19]
+set_location_assignment PIN_161 -to dram_dq[20]
+set_location_assignment PIN_160 -to dram_dq[21]
+set_location_assignment PIN_159 -to dram_dq[22]
+set_location_assignment PIN_158 -to dram_dq[23]
+set_location_assignment PIN_133 -to dram_dq[24]
+set_location_assignment PIN_132 -to dram_dq[25]
+set_location_assignment PIN_128 -to dram_dq[27]
+set_location_assignment PIN_127 -to dram_dq[28]
+set_location_assignment PIN_126 -to dram_dq[29]
+set_location_assignment PIN_125 -to dram_dq[30]
+set_location_assignment PIN_124 -to dram_dq[31]
+set_location_assignment PIN_186 -to dram_dqm[0]
+set_location_assignment PIN_114 -to dram_dqm[1]
+set_location_assignment PIN_173 -to dram_dqm[2]
+set_location_assignment PIN_123 -to dram_dqm[3]
+set_location_assignment PIN_182 -to dram_ras
+set_location_assignment PIN_185 -to dram_we
+set_location_assignment PIN_183 -to dram_cs
+set_location_assignment PIN_115 -to dram_clk
+set_location_assignment PIN_181 -to dram_cas
+set_location_assignment PIN_179 -to dram_ba[0]
+set_location_assignment PIN_178 -to dram_ba[1]
+set_location_assignment PIN_176 -to dram_a[0]
+set_location_assignment PIN_184 -to dram_a[11]
+set_location_assignment PIN_177 -to dram_a[10]
+set_location_assignment PIN_116 -to dram_a[9]
+set_location_assignment PIN_119 -to dram_a[8]
+set_location_assignment PIN_120 -to dram_a[7]
+set_location_assignment PIN_118 -to dram_a[6]
+set_location_assignment PIN_117 -to dram_a[5]
+set_location_assignment PIN_121 -to dram_a[4]
+set_location_assignment PIN_122 -to dram_a[3]
+set_location_assignment PIN_174 -to dram_a[2]
+set_location_assignment PIN_175 -to dram_a[1]
+set_location_assignment PIN_113 -to dram_dq[8]
+set_location_assignment PIN_131 -to dram_dq[26]
+set_location_assignment PIN_163 -to dram_dq[18]
+set_location_assignment PIN_165 -to dram_dq[16]
+set_location_assignment PIN_203 -to eth_col
+set_location_assignment PIN_202 -to eth_txen
+set_location_assignment PIN_201 -to eth_txd[3]
+set_location_assignment PIN_134 -to eth_txd[2]
+set_location_assignment PIN_135 -to eth_txd[1]
+set_location_assignment PIN_136 -to eth_txd[0]
+set_location_assignment PIN_137 -to eth_txc
+set_location_assignment PIN_138 -to eth_rxc
+set_location_assignment PIN_139 -to eth_rxd[3]
+set_location_assignment PIN_140 -to eth_rxd[2]
+set_location_assignment PIN_141 -to eth_rxd[1]
+set_location_assignment PIN_143 -to eth_rxd[0]
+set_location_assignment PIN_144 -to eth_rxdv
+set_location_assignment PIN_156 -to eth_crs
+set_location_assignment PIN_180 -to eth_rxer
+set_location_assignment PIN_206 -to eth_mdc
+set_location_assignment PIN_99 -to eth_x1
+set_location_assignment PIN_207 -to eth_mdio
+set_location_assignment PIN_73 -to max[0]
+set_location_assignment PIN_74 -to max[1]
+set_location_assignment PIN_79 -to max[2]
+set_location_assignment PIN_82 -to max[3]
+set_location_assignment PIN_84 -to max[4]
+set_location_assignment PIN_83 -to max[5]
+set_location_assignment PIN_86 -to max[6]
+set_location_assignment PIN_87 -to max[7]
+set_location_assignment PIN_88 -to max[8]
+set_location_assignment PIN_94 -to max[9]
+set_location_assignment PIN_95 -to max[10]
+set_location_assignment PIN_93 -to max[11]
+set_location_assignment PIN_85 -to max[12]
+set_location_assignment PIN_28 -to clk_a
+set_location_assignment PIN_153 -to clk_b
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name VHDL_FILE sdram.vhd
+set_global_assignment -name VERILOG_FILE vgaout.v
+set_global_assignment -name QIP_FILE pll1.qip
+set_global_assignment -name VERILOG_FILE top.v
+set_global_assignment -name SDC_FILE clocks.sdc
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
